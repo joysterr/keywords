@@ -1,0 +1,24 @@
+$bg-color-dark: #121212;
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $bg-color-dark;
+    
+    font-family: sans-serif;
+
+    color: orange;
+}
+
+main {
+    min-height: 100dvh;
+}

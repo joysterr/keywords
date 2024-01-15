@@ -1,0 +1,102 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+  font-family: sans-serif;
+  color: orange;
+}
+
+main {
+  min-height: 100dvh;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 70rem;
+  border: 2px solid orange;
+  border-radius: 1rem;
+}
+.keyboard__input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem 1rem;
+}
+.keyboard__input .form {
+  position: relative;
+}
+.keyboard__input .form input {
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid orange;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: orange;
+  background-color: transparent;
+}
+.keyboard__input .form input:enabled {
+  outline: none;
+}
+.keyboard__input .form button {
+  position: absolute;
+  right: 0;
+  width: 2rem;
+  aspect-ratio: 1;
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: transparent;
+  color: orange;
+  cursor: pointer;
+}
+.keyboard__input .form button:hover {
+  background-color: orange;
+  color: #121212;
+}
+.keyboard__keys {
+  display: flex;
+}
+.keyboard .combo {
+  position: relative;
+}
+.keyboard .key {
+  width: 5rem;
+  height: 10rem;
+  border: 1px solid orange;
+  border-bottom-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+  cursor: pointer;
+}
+.keyboard .key:hover:not(.black) {
+  background-color: rgba(255, 165, 0, 0.85);
+}
+.keyboard .black {
+  position: absolute;
+  top: 0;
+  right: -1.5rem;
+  z-index: 1;
+  width: 3rem;
+  height: 5rem;
+  background-color: orange;
+}
+.keyboard .black:hover {
+  background-color: #121212;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
