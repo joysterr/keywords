@@ -1,5 +1,8 @@
-# 🎹 KeyWords - a quirky piano
-A tiny, but functional piano that converts words intro musical notes. 
+#  KeyWords - a quirky piano
+
+## 🎹 Description
+A tiny, but functional piano that converts words intro musical notes.   
+![Screenshot](./assets/screenshots/ss-desktop.png)
 
 ## ✨ Features
 - A simple UI
@@ -7,5 +10,6 @@ A tiny, but functional piano that converts words intro musical notes.
 
 ## 🚀 Future Updates
 - Responsive Design
-- Ability to play keys - with mouse/touch and keyboard
+- Play keys - with mouse/touch and keyboard
+- Change octave
 - Ear training mode
